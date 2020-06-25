@@ -1,0 +1,20 @@
+.footer
+{
+    background: none repeat scroll 0 0 #0080FF;
+    color: #fff;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px 0;
+    text-align: center;
+}
+div
+{
+    display: block;
+}
+body
+{
+    font-family: sans-serif;
+    text-align: center;
+}

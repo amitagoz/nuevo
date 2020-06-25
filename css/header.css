@@ -1,0 +1,9 @@
+.header {
+    margin: auto;
+    width: 500px;
+    font-family: arial;
+    }
+    
+    ul, ol {
+        list-style: none;
+    }

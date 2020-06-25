@@ -1,0 +1,39 @@
+*{
+	box-sizing:border-box;
+}
+
+.contenedor-foto {
+	display: flex;
+	width: 100%;
+	max-width:100%;
+	margin: auto;
+	justify-content: space-around;
+	
+}
+
+.foto__img {
+	width:250px;
+	height: auto;
+	margin-bottom: 30px;
+	
+	filter: brightness(30%);
+	animation:escalar 1.5s infinite alternate;
+	box-shadow:5px 5px 0px #424242;
+	display:block;
+	size: cover;
+	float: left;
+	
+}
+@keyframes escalar{
+	to{
+	 transform: scale(1);
+	}
+	from{
+	 transform: scale(1.05);
+	}
+}
+
+.foto__img:hover{
+	filter: brightness(100%);
+	border-radius:60px;
+}

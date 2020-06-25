@@ -1,0 +1,27 @@
+#preview
+{
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#preview .contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.preview-servicios
+{
+    margin: 20px;
+}
+
+.preview-servicios img
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
